@@ -5,7 +5,7 @@ import { FaFacebookF } from 'react-icons/fa'
 import { BsTwitter } from "react-icons/bs"
 function Footer1() {
   return (
-    <footer>
+    <footer className='footer1'>
       <div className="container">
         <ul className='footer'>
           <li className='location'>

@@ -1,53 +1,55 @@
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 70px;
-  padding: 50px 0;
-
-  li {
-    width: 32%;
+.footer1 {
+  .footer {
     display: flex;
-    flex-direction: column;
-    gap: 40px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+    padding: 50px 0;
 
-    h2 {
-      font-weight: 600;
-      font-size: 32px;
-    }
-    .phone {
-      display: flex;
-      gap: 20px;
-    }
-    form {
+    li {
+      width: 32%;
       display: flex;
       flex-direction: column;
-      gap: 10px;
-      input {
-        background: #f7f7f7;
-        border-radius: 4px;
-        padding: 17px 16px;
-        border: none;
-        color: #2d2e2e;
-        font-size: 16px;
-        font-weight: 500;
+      gap: 40px;
+
+      h2 {
+        font-weight: 600;
+        font-size: 32px;
       }
-      textarea {
-        background: #f7f7f7;
-        border-radius: 4px;
-        padding: 17px 16px;
-        border: none;
-        color: #2d2e2e;
-        font-size: 16px;
-        font-weight: 500;
+      .phone {
+        display: flex;
+        gap: 20px;
       }
-      button {
-        padding: 17px 30px;
-        background: #ffffff;
-        border: 1px solid #3a4f39;
-        border-radius: 4px;
-        width: 40%;
-        align-self: flex-end;
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        input {
+          background: #f7f7f7;
+          border-radius: 4px;
+          padding: 17px 16px;
+          border: none;
+          color: #2d2e2e;
+          font-size: 16px;
+          font-weight: 500;
+        }
+        textarea {
+          background: #f7f7f7;
+          border-radius: 4px;
+          padding: 17px 16px;
+          border: none;
+          color: #2d2e2e;
+          font-size: 16px;
+          font-weight: 500;
+        }
+        button {
+          padding: 17px 30px;
+          background: #ffffff;
+          border: 1px solid #3a4f39;
+          border-radius: 4px;
+          width: 40%;
+          align-self: flex-end;
+        }
       }
     }
   }
@@ -57,20 +59,22 @@
   .container {
     width: 550px;
   }
-  .footer {
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-    gap: 30px;
-
-    li {
-      width: 100%;
+  .footer1 {
+    .footer {
+      flex-direction: column;
       align-items: center;
-      gap: 20px;
+      padding: 50px;
+      gap: 30px;
 
-      form {
-        button {
-          width: 100%;
+      li {
+        width: 100%;
+        align-items: center;
+        gap: 20px;
+
+        form {
+          button {
+            width: 100%;
+          }
         }
       }
     }
