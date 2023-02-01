@@ -1,0 +1,31 @@
+.footer3 {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+    padding: 50px 0;
+
+    li {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .footer3 {
+    .footer {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 40px;
+      padding: 50px;
+
+      li {
+        font-weight: 600;
+        gap: 10px;
+      }
+    }
+  }
+}
